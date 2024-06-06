@@ -1,0 +1,8 @@
+version: '3.7'
+
+services:
+  calculator:
+    build:
+        dockerfile: Dockerfile
+    tty: true
+    stdin_open: true
