@@ -20,6 +20,6 @@ jobs:
         with:
           context: .
           push: true
-          tags: alekseyshevvv/devops_app-calculator:latest
+          tags: alekseyshevvv/calculator:latest
 
 
