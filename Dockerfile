@@ -7,5 +7,8 @@ WORKDIR /app
 # Копируем файлы проекта в рабочую директорию контейнера
 COPY . /app
 
+# Устанавливаем зависимости
+RUN pip install -r requirements.txt
+
 # Команда, которая будет запущена при старте контейнера
-CMD ["python", "calc_app.py"]
+CMD ["python", "flask_calc_app.py"]
